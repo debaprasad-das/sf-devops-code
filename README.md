@@ -2,7 +2,7 @@
 # Log parsing tool
 
 
-#logparse usage
+# logparse usage
 ```commandline
 python parselog.py --help
 usage: parselog.py [-h] --logfile LOGFILE [--findbyrequests] [--findbyuseragent] [--findbyos]
@@ -49,7 +49,7 @@ python parselog.py --logfile resources/sample.log  --findbyos
 ```
 
 
-#Negative cases handing
+# Negative cases handing
 
 ```commandline
 python parselog.py --logfile resources/sam --findbyrequests
