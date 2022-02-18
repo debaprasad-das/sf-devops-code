@@ -2,7 +2,7 @@
 # Log parsing tool
 
 
-# logparse usage
+# parselog usage
 ```commandline
 python parselog.py --help
 usage: parselog.py [-h] --logfile LOGFILE [--findbyrequests] [--findbyuseragent] [--findbyos]
