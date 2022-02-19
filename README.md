@@ -54,7 +54,7 @@ python parselog.py --logfile resources/sample.log  --findbyos
 ```
 
 
-# Negative cases handing
+# Negative cases handling
 
 ```commandline
 python parselog.py --logfile resources/sam --findbyrequests
