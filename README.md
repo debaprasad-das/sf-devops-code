@@ -57,8 +57,8 @@ Please provide a valid path for log file
 ```
 
 ```commandline
-python parselog.py --logfile resources/sam --findbyrequests
-Please provide a valid path for log file
+python parselog.py --logfile resources
+Please provide a valid log file
 ```
 
 ```commandline
