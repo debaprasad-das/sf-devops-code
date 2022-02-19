@@ -2,7 +2,7 @@
 # Log parsing tool
 
 
-# parselog usage
+# parselog tool usage - help 
 ```commandline
 python parselog.py --help
 usage: parselog.py [-h] --logfile LOGFILE [--findbyrequests] [--findbyuseragent] [--findbyos]
@@ -17,6 +17,8 @@ optional arguments:
   --findbyos         ratio of GET's to POST's by OS by day
 ```
 
+# Get requests count by day
+
 ```commandline
 python parselog.py --logfile resources/sample.log --findbyrequests
 01/Dec/2011 - has these requests counts {'GET': 2555, 'POST': 270, 'PUT': 14}
@@ -25,6 +27,8 @@ python parselog.py --logfile resources/sample.log --findbyrequests
 
 ```
 
+# Get most frequent User Agents by day (top 3)
+
 ```commandline
 python parselog.py --logfile resources/sample.log  --findbyuseragent
 01/Dec/2011 - has most requests from following user agents (top 3) -  [('Mozilla/5.0', 1603), ('Mozilla/4.0', 569), ('WordPress/3.2.1', 105)]
@@ -32,6 +36,7 @@ python parselog.py --logfile resources/sample.log  --findbyuseragent
 03/Dec/2011 - has most requests from following user agents (top 3) -  [('Mozilla/5.0', 389), ('Mozilla/4.0', 100), ('WordPress/3.2.1', 22)]
 ```
 
+# ratio of GET's to POST's by OS by day
 ```commandline
 python parselog.py --logfile resources/sample.log  --findbyos
 01/Dec/2011 - has GET vs POST requests by operating system Windows [('GET', 614), ('POST', 161)]
